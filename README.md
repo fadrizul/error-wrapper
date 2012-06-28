@@ -34,3 +34,14 @@ To this!!
     console.log things
 ```
 
+## Usage
+
+Include in the file and you're done!
+
+```
+var wrap = require('error-wrapper');
+```
+
+## What it does?
+
+Wrap your functions, if there's an error it will pring the stack-trace message in your console.
